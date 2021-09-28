@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  height: 30%;
+  color: white;
+  padding: 1%;
+  display: inline-flex;
+}
+
+button{
+  position: relative;
+  height: 20%;
+  border-radius: 10px;
+  float: right;
+}
+
+.cardImg{
+  width: 150px;
+    height: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.ui[class*="two column"].grid>.column:not(.row), .ui[class*="two column"].grid>.row>.column{
+    flex-wrap: wrap;
+    padding: 1%;
+    
+
+}
+
+#ops{
+  width: 99%;
+}
+
+.card{
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+  background-color: gray;
+  border: solid;
+  word-break: auto;
+  text-align: justify-all;
+  border-color: black;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+.cardText{
+  position: absolute;
+  z-index: 2;
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+  word-break: auto;
+  text-align: justify-all;
+  border-color: black;
+}
+
+
+p{
+  line-height: normal;
+}

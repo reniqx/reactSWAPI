@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+
+}
+
+button{
+  position: relative;
+  height: 20%;
+  border-radius: 10px;
+  float: right;
+}
+
+
+.ui[class*="two column"].grid>.column:not(.row), .ui[class*="two column"].grid>.row>.column{
+    flex-wrap: wrap;  
+}
+
+#ops{
+  width: 99%;
+}
+
+
+
+.ui.card{
+    width: 100%;
+    height: 250px;
+    background: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FksbwZBK.jpg&f=1&nofb=1);
+    background-color: lightgoldenrodyellow;    
+   
+
+}
+
+
+.ui.card:hover{
+  border: solid;
+  border-width: 1px;
+  border-color: red;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui.grid {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    width: 98%;
+    top: 15%;
+    position: absolute;
+}
+
+.ui.card:first-child {
+    margin-top: 12px;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+    flex-grow: 1;
+    background: 0 0;
+    margin: 0;
+    box-shadow: none;
+    font-size: 1em;
+    border-radius: 0;
+}
+
+
+div.cardHeader{
+  color: firebrick;
+    position: relative;
+    z-index: 2;
+    width: 99%;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: justify-all;
+    line-height: normal;
+    border-color: black;
+    font-size: larger;
+    text-align: left;
+    
+}
+
+.description{
+  font-size: medium;
+
+}
+
+
+div.cardText{
+  position: sticky;
+    width: 100%;
+    height: auto;
+    word-break: auto;
+    text-align: justify-all;
+    border-color: black;
+  
+}
+
+
+.ui.card>.content p, .ui.cards>.card>.content p{
+  line-height: normal;
+  color: white;
+
+}
+
+.navBtn{
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 0px;
+  height: 30px;
+  width: 100px;
+  float: left;
+
+}
+
+.nav{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 60ps;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navImg{
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 0px;
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+  
+.navImg:active{
+  width: 40px;
+  height: 40px;
+}
+
+p{
+  line-height: normal;
+}
+
+.overLay {
+  z-index: 9;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+
+}
+
+#details{
+  width: 80%;
+  margin: auto;
+  height: auto;
+  word-break: break-word;
+}
+
+
+.genderImg{
+  z-index: 3;
+  width: 20px;
+  filter: grayscale(100%) invert(100%) brightness(1.0);
+}
+
+@media (max-width: 700px) {
+ #details{
+    width: 99%;
+ }
+  
+}
+
+
